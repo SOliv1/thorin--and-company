@@ -19,6 +19,9 @@ and to update to latest
 
 pip install --upgrade -r requirements.txt
 
+Uninstalled flask and reinstalled due to 'escape' no longer working in jinga3 see Stackoverflow here:
+[Stackoverflow](https://stackoverflow.com/questions/71718167/importerror-cannot-import-name-escape-from-jinja2)
+
 ## Gitpod Reminders
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
