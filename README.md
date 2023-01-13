@@ -15,6 +15,10 @@ We have preinstalled all of the tools you need to get started.
 
 pip install -r requirements.txt
 
+and to update to latest 
+
+pip install --upgrade -r requirements.txt
+
 ## Gitpod Reminders
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
