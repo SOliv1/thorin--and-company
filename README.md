@@ -1,6 +1,6 @@
 # Code Institute
 
-[![CI](https://github.com/SOliv1/thorin--and-company/actions/workflows/main.yml/badge.svg)](https://github.com/SOliv1/thorin--and-company/actions/workflows/main.yml) [![CodeQL](https://github.com/SOliv1/thorin--and-company/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/SOliv1/thorin--and-company/actions/workflows/github-code-scanning/codeql)[![Python application](https://github.com/SOliv1/thorin--and-company/actions/workflows/python-app.yml/badge.svg)](https://github.com/SOliv1/thorin--and-company/actions/workflows/python-app.yml)
+[![CI](https://github.com/SOliv1/thorin--and-company/actions/workflows/main.yml/badge.svg)](https://github.com/SOliv1/thorin--and-company/actions/workflows/main.yml) [![CodeQL](https://github.com/SOliv1/thorin--and-company/actions/workflows/github-code-scanning/codeql/badge.svg)]
 
 view live site [here](https://thorin-company-sjo.herokuapp.com/)
 >The live site no longer exists / works at heroku platform, due to hobby-plan being converted to a paid plan by Heruku in November >2022.  The Principle still works if migrated to a new host webservice.
