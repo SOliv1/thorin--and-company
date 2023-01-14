@@ -1,4 +1,5 @@
- {% extends 'base.html' %} {% block content %}
+{% extends 'base.html' %} {% block content %}
+<h2>{{ page_title }}</h2>
 
 <div class="row">
     <div class="col-lg-8 col-md-10 mx-auto">
@@ -13,18 +14,21 @@
             </a>
             <p class="post-meta">Posted by
                 <a href="#">Start Bootstrap</a> on September 24, 2017</p>
-            <p>Blog add here!</p>
+            <p>Add the rest of your post here!</p>
         </div>
         <hr>
+        
         <div class="post-preview">
-            <a href="/post.html">
-                <h2 class="post-title">
+        <div class="clearfix">
+            <a class="btn btn-primary float-right" href="#heartbeat">Past Posts &rarr;</a>
+        </div>
+            <a href="post.html">
+                <h2 class="post-title" id="heartbeat">
                     I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
                 </h2>
             </a>
             <p class="post-meta">Posted by
-                <a href="/post.html">Start Bootstrap</a> on September 18, 2017</p>
-            <p>Blog add here!</p>
+                <a href="#">Start Bootstrap</a> on September 18, 2017</p>
         </div>
         <hr>
         <div class="post-preview">
@@ -35,10 +39,8 @@
                 <h3 class="post-subtitle">
                     We predict too much for the next year and yet far too little for the next ten.
                 </h3>
-            </a>
-            <p class="post-meta">Posted by
+                <p class="post-meta">Posted by
                 <a href="#">Start Bootstrap</a> on August 24, 2017</p>
-            <p>Blog add here!</p>
         </div>
         <hr>
         <div class="post-preview">
@@ -52,7 +54,6 @@
             </a>
             <p class="post-meta">Posted by
                 <a href="#">Start Bootstrap</a> on July 8, 2017</p>
-            <p>Blog add here!</p>
         </div>
         <hr>
         <!-- Pager -->

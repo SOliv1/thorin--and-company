@@ -43,6 +43,11 @@ def careers():
     return render_template("careers.html", page_title="Careers")
 
 
+@app.route('/post')
+def post():
+    return render_template("post.html", page_title="Latest Post")
+
+
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
             port=int(os.environ.get("PORT", "8000")),
